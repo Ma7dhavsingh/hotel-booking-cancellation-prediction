@@ -17,7 +17,7 @@ model = joblib.load("hotel_cancellation_model.pkl")
 preprocessor = joblib.load("hotel_cancellation_preprocessor.pkl")
 
 
-st.title("Hotel Booking Cancellation Prediction")
+model = joblib.load("hotel_cancellation_model_small.pkl")
 st.write("Predict whether a hotel booking is likely to be canceled.")
 
 st.success("Model loaded successfully!")
