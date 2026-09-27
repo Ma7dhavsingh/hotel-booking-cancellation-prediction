@@ -13,7 +13,7 @@ st.set_page_config(
 
 
 # Model aur preprocessor load kar rahe hain
-model = joblib.load("hotel_cancellation_model.pkl")
+model = joblib.load("hotel_cancellation_model_small.pkl")
 preprocessor = joblib.load("hotel_cancellation_preprocessor.pkl")
 
 
